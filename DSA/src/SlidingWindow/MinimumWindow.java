@@ -38,6 +38,6 @@ public class MinimumWindow{
                 }
             r++;
         }
-        return sindex==-1?"":s.substring(sindex,sindex+minlen);
+        return sindex==-1?st:s.substring(sindex,sindex+minlen);
     }
 }
